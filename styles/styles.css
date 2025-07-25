@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 
 
 .contiener{
@@ -151,10 +153,72 @@ section{
 }
 
 /* clourful section */
+.pari-na{
+    width: 1440px;
+    height: 533px;
+    align-items: center;
+    margin-bottom: 30px;
+}
 
 
 
 /* footer section */
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+    width: 1120px;
+    padding: 50px 160px 50px 160px;
+}
+.footer-logo p{
+    font-weight: 400;
+    font-size: 22px;
+    color: #00000080;
+}
+.footer-blog ul li a {
+    text-decoration: none;
+}
+.footer-blog ul li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6B7280;
+    width: 85px;
+    height: 50px;
+    gap: 32px;
+}
+.footer-blog ul{
+    
+}
+.footer-socil{
+    width: 36px;
+    height: 36px;
+    row-gap: 24px;
+    
+}
+
+@media (max-width:768px){
+   .banner-item{
+    flex-direction: column;
+  } 
+.card-item{
+    grid-template-columns: repeat(2, 1fr);
+}
+.flower-store{
+    flex-direction: column;
+}
+.footer-section{
+    flex-direction: column;
+}
+   
+   /* }
+   .banner-title{
+    order:2;
+   }
+   .banner-sub-title{
+    order:1 ; */
+}
 
 
 
