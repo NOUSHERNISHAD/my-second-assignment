@@ -134,10 +134,11 @@ section{
     color: #00000080;
 }
 /* letest-section */
+
 .latest-title h1{
     font-weight: 700;
     font-size: 50px;
-    
+    align-items: center;
 
 }
 .latest-title p{
@@ -146,8 +147,15 @@ section{
     font-size: 22px;
 }
 .latest-title{
-    
+    margin-bottom: 120px;
 }
+
+/* clourful section */
+
+
+
+/* footer section */
+
 
 
    
