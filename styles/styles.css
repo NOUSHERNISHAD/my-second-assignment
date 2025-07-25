@@ -1,3 +1,88 @@
-nav{
-    color: brown;
+
+
+
+.contiener{
+    max-width: 1140px;
+    margin: auto;
 }
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 135px;
+    height: 80px;
+}
+.home-style{
+    color: #252432;
+    font-weight: 700;
+    font-size: 16px;
+}
+.sh-ab{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8987A1;
+}
+.cart-style{
+    width: 113px;
+    height: 24px;
+    gap: 10;
+    color: #000000;
+}
+.nav-item{
+    list-style: none;
+    
+}
+nav ul li{
+    gap: 48;
+}
+.nav-item li a{
+    text-decoration: none;
+}
+/* banner style */
+.banner-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+}
+.heading-style{
+    color: #E95A08;
+}
+.banner-sub-title{
+    color: #00000080;
+    font-weight: 400;
+    font-size: 22px;
+}
+/* main style  */
+.section-title{
+    font-weight: 700;
+    font-size: 50px;
+    
+    
+}
+.section-style{
+    max-width: 880px;
+    margin: auto;
+    text-align: center;
+}
+.title-text{
+    text-align: center;
+    margin top: 16px ;
+}
+section{
+    margin-top: 120px;
+}
+/* section item */
+
+   
+  
+
+
+
